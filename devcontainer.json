@@ -1,0 +1,18 @@
+{
+    "name": "powercli",
+    "build": {
+        "dockerfile": "dockerfile"
+    },
+    "extensions": [
+        "ms-vscode.powershell", 
+        "mutantdino.resourcemoni", 
+        "davidhewitt.shebang-language-associator",
+        "eamodio.gitlens"
+    ],
+    "settings": {
+        "editor.suggestSelection": "first",
+        "redhat.telemetry.enabled": false,
+        "git.autofetch": true,
+        "telemetry.telemetryLevel": "off" 
+    }
+}
